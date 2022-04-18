@@ -37,7 +37,7 @@
     "commands": [
       {
         "command": "extension.youdotcomSearch",
-        "title": "Search with you.com"
+        "title": "Search on you.com"
       }
     ],
     "configuration": {
