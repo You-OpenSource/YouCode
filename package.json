@@ -1,0 +1,66 @@
+{
+  "name": "do-youdotcom",
+  "displayName": "do-youdotcom",
+  "description": "Search and do code with you.com!",
+  "version": "0.0.1",
+  "publisher": "youdotcom",
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "author": {
+    "name": "you.com",
+    "url": "https://github.com/Su-Sea/youdotcom-vscode-extension"
+  },
+  "icon": "resources/youdotcom.png",
+  "homepage": "https://github.com/Su-Sea/youdotcom-vscode-extension",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Su-Sea/youdotcom-vscode-extension"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.youdotcomSearch"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "extension.youdotcomSearch",
+          "group": "navigation"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "extension.youdotcomSearch",
+        "title": "Search with you.com"
+      }
+    ],
+    "configuration": {
+      "title": "youdotcom Search Config",
+      "type": "object",
+      "properties": {
+        "youdotcomSearch.QueryTemplate": {
+          "type": "string",
+          "default": "https://you.com/search?q=%SELECTION%",
+          "description": "Search Query"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28",
+    "eslint": "^5.13.0",
+    "@types/node": "^10.12.21",
+    "@types/mocha": "^2.2.42"
+  }
+}
