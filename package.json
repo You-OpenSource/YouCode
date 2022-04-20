@@ -2,7 +2,7 @@
   "name": "YouCode",
   "displayName": "YouCode",
   "description": "Search with code.you.com!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "youdotcom",
   "engines": {
     "vscode": "^1.31.0"
