@@ -1,7 +1,7 @@
 {
-  "name": "do-youdotcom",
-  "displayName": "do-youdotcom",
-  "description": "Search and do code with you.com!",
+  "name": "YouCode",
+  "displayName": "YouCode",
+  "description": "Search and code with you.com!",
   "version": "0.0.1",
   "publisher": "youdotcom",
   "engines": {
@@ -9,13 +9,13 @@
   },
   "author": {
     "name": "you.com",
-    "url": "https://github.com/Su-Sea/youdotcom-vscode-extension"
+    "url": "https://github.com/You-OpenSource/YouCode"
   },
   "icon": "resources/youdotcom.png",
-  "homepage": "https://github.com/Su-Sea/youdotcom-vscode-extension",
+  "homepage": "https://github.com/You-OpenSource/YouCode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Su-Sea/youdotcom-vscode-extension"
+    "url": "https://github.com/You-OpenSource/YouCode"
   },
   "categories": [
     "Other"
@@ -46,7 +46,7 @@
       "properties": {
         "youdotcomSearch.QueryTemplate": {
           "type": "string",
-          "default": "https://you.com/search?q=%SELECTION%",
+          "default": "https://code.you.com/search?q=%SELECTION%",
           "description": "Search Query"
         }
       }
