@@ -1,9 +1,9 @@
 {
   "name": "YouCode",
   "displayName": "YouCode",
-  "description": "Search and code with you.com!",
+  "description": "Search with code.you.com!",
   "version": "0.0.1",
-  "publisher": "youdotcom",
+  "publisher": "You.com",
   "engines": {
     "vscode": "^1.31.0"
   },
@@ -21,7 +21,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.youdotcomSearch"
+    "onCommand:extension.youdotcom"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -29,22 +29,22 @@
       "editor/context": [
         {
           "when": "editorHasSelection",
-          "command": "extension.youdotcomSearch",
+          "command": "extension.youdotcom",
           "group": "navigation"
         }
       ]
     },
     "commands": [
       {
-        "command": "extension.youdotcomSearch",
-        "title": "Search with you.com"
+        "command": "extension.youdotcom",
+        "title": "Search with code.you.com"
       }
     ],
     "configuration": {
       "title": "youdotcom Search Config",
       "type": "object",
       "properties": {
-        "youdotcomSearch.QueryTemplate": {
+        "youdotcom.QueryTemplate": {
           "type": "string",
           "default": "https://code.you.com/search?q=%SELECTION%",
           "description": "Search Query"

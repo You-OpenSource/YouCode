@@ -1,7 +1,7 @@
 //Strings
-const CFG_SECTION = "youdotcomSearch";
+const CFG_SECTION = "youdotcom";
 const CFG_QUERY = "QueryTemplate";
-const CMD_ID = "extension.youdotcomSearch";
+const CMD_ID = "extension.youdotcom";
 
 const vscode = require("vscode");
 
@@ -26,8 +26,8 @@ function webSearch() {
     return;
   }
   const uriText = encodeURI(selectedText);
-  const youdotcomSearchCfg = vscode.workspace.getConfiguration(CFG_SECTION);
-  const queryTemplate = youdotcomSearchCfg.get(CFG_QUERY);
+  const youdotcomCfg = vscode.workspace.getConfiguration(CFG_SECTION);
+  const queryTemplate = youdotcomCfg.get(CFG_QUERY);
   const query = queryTemplate.replace("%SELECTION%", uriText);
   vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(query));
 }
