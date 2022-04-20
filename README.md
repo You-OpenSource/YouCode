@@ -1,15 +1,16 @@
-# Search with You.com
-A simple extension for VSCode to search with you.com! This extension is adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search).
+# YouCode: a VSCode extension for code.you.com
+YouCode is a VSCode extension to search with code.you.com. 
 
-## How it works!
-Simply select the word or function you want to search, then right click and click on `Search with you.com` in drop-down menu.
+Code.you.com is a developer-focused search engine powered by You.com. You.com is a search engine that summarizes the best parts of the Internet for you! To learn more about you.com, see our [FAQ](https://about.you.com/hc-category/faq/).
 
-# See it in Action
-#### When you select the text and right click you'll see `Search with you.com` in your drop-down menu
-
+## How to use the extension
+Select the word or function you want to search, right click, and then click on `Search with code.you.com` in the drop-down menu.
 ![drop-down-menu](https://github.com/You-OpenSource/YouCode/blob/main/resources/dropdown.png?raw=true)
 
-## How it opens in browser
-#### Enjoy search experience optimized for developers
+## Why use code.you.com?
+Enjoy a search experience optimized for developers
 
 ![browser-query-results](https://github.com/You-OpenSource/YouCode/blob/main/resources/query.png?raw=true)
+
+## Original extension
+This extension was adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search). The original repository can be accessed here: https://github.com/kameshkotwani/google-search.
