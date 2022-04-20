@@ -13,4 +13,4 @@ Select the word or function you want to search, right click, and then click on `
 ![browser-query-results](https://github.com/You-OpenSource/YouCode/blob/main/resources/query.png?raw=true)
 
 ## Original extension
-This extension is adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search).
+This extension was adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search). The original repository can be accessed here: https://github.com/kameshkotwani/google-search.
