@@ -8,7 +8,7 @@ Select the word or function you want to search, right click, and then click on `
 ![drop-down-menu](https://github.com/You-OpenSource/YouCode/blob/main/resources/dropdown.png?raw=true)
 
 ## Why use code.you.com?
-#### Enjoy a search experience optimized for developers
+Enjoy a search experience optimized for developers
 
 ![browser-query-results](https://github.com/You-OpenSource/YouCode/blob/main/resources/query.png?raw=true)
 
