@@ -16,4 +16,4 @@ Enjoy a search experience optimized for developers!
 ![browser-query-results](https://github.com/You-OpenSource/YouCode/blob/main/resources/query.png?raw=true)
 
 ## Original extension
-This extension was adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search). The original repository can be accessed here: https://github.com/kameshkotwani/google-search.
+This extension was adapted from [Kamesh Kotwani](https://github.com/kameshkotwani/google-search). The original repository can be accessed here: https://github.com/kameshkotwani/google-search. It was made possible by [Ciprian Burca](https://github.com/burcadoruciprian), presumably from https://github.com/burcadoruciprian/vscode-simple-search.
